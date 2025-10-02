@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+/* Sections */
+
+header {
+    background-image: 
+        linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.7)),
+        url('header.png');
+    background-position: center 25%;
+    background-size: cover;
+    height: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+/* Buttons */
+header > button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+header > button:hover {
+    text-decoration: underline;
+}
+
+/* Typography */
+header > h1 {
+    font-size: 42.79px;
+}
