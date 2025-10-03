@@ -6,6 +6,9 @@
 }
 
 /* Sections */
+body {
+    background-color: #121212;
+}
 
 header {
     background-image: 
@@ -18,6 +21,23 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 45px;
+}
+
+#search{
+    margin-top: -18px;
+    display: flex;
+    background-color: #2E2E2F;
+    color: #9CA3AF;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+    border-radius: 6px;
 }
 
 /* Buttons */
@@ -33,7 +53,34 @@ header > button:hover {
     text-decoration: underline;
 }
 
+#search > button {
+    background-color: #4B4B4B;
+    height: 100%;
+    width: 120px;
+    border: none;
+    border-radius: 0 6px 6px 0;
+}
+
+/* input */
+input {
+    background-color: #2E2E2F;
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+}
+
 /* Typography */
 header > h1 {
     font-size: 42.79px;
+}
+
+#search-icon {
+    padding: 0 15px;
+    color: #9CA3AF;
 }
